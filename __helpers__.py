@@ -30,7 +30,7 @@ def load_mnist_data():
     # test dataset
     X_test, Y_test = test
     X_test = X_test.reshape((-1, 1, 28, 28)).astype('float32')
-    Y_val = Y_val.astype('int32')
+    Y_test = Y_test.astype('int32')
     return X_train, Y_train, X_val, Y_val, X_test, Y_test
 
 
