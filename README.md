@@ -6,7 +6,7 @@ Autoencoder for MNIST handwritten digits data using Python (Lasagne + Theano lib
 
 Training takes about 40 minutes per model, with GPU; special thanks to [National Supercomputing Centre (NSCC) Singapore](http://www.nscc.sg)!  
 
-The main implementation is in ```auto_encoder.py``` which uses helper functions from ```__helpers__.py```. For plotting validation/training loss see ```plot_training.py```. For visualizations of the code layer, see ```plot_3D.py``` and ```plot_4x4.py``` (for the '3D model' and '4x4 model' respectively). All the output, training information, visualizations and plots are saved/pickled in the 'output' folder. Model weights are supposed to be located in the 'output' folder but due to GitHub uploading restrictions (exceeds 100MB), are *not* provided. 
+The main implementation is in ```auto_encoder.py``` which uses helper functions from ```helpers.py```. For plotting validation/training loss see ```plot_training.py```. For visualizations of the code layer, see ```plot_3D.py``` and ```plot_4x4.py``` (for the '3D model' and '4x4 model' respectively). All the output, training information, visualizations and plots are saved/pickled in the 'output' folder. Model weights are supposed to be located in the 'output' folder but due to GitHub uploading restrictions (exceeds 100MB), are *not* provided.
 
 
 ## 3D Model: Autoencoder with 3-dimensional code layer.
